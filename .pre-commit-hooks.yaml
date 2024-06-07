@@ -2,6 +2,6 @@
   name: Flutter flutter
   description: Run `flutter analyze` for linting
   entry: flutter analyze
-  language: dart
+  language: system
   types_or: [dart]
   additional_dependencies: []
