@@ -1,0 +1,7 @@
+- id: flutter-lint
+  name: Flutter flutter
+  description: Run `flutter analyze` for linting
+  entry: flutter analyze
+  language: dart
+  types_or: [dart]
+  additional_dependencies: []
