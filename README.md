@@ -14,7 +14,19 @@ repos:
       - id: flutter-lint
 ```
 
-To update to the latest version of the hook, run:
+To update to the latest version of the hook:
 ```shell
 pre-commit autoupdate --bleeding-edge --repo https://github.com/intellitect/pre-commit-flutter
+```
+
+## Development
+
+To test a hook in this repo:
+```shell
+pre-commit try-repo --all-files . flutter-lint
+```
+
+To test all the hooks, remove the hook ID:
+```shell
+pre-commit try-repo --all-files .
 ```
